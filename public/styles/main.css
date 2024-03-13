@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+
+#card {
+  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='20' height='20' patternTransform='scale(1) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(47, 0%, 100%, 1)'/><path d='M0 10h20z'   stroke-width='0.5' stroke='hsla(54, 46%, 93%, 1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+  padding: 48px;
+  margin: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+h1 {
+  font-family: "Darumadrop One", sans-serif;
+  color: #f8d56a;
+  font-size: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 48px;
+}
+
+h2,
+p,
+li {
+  font-family: "Poppins", sans-serif;
+}
+
+p,
+li {
+  font-size: smaller;
+}
+
+img {
+  grid-area: 1/2/1/2;
+  width: 50%;
+  margin-left: 48px;
+}
+
+#footer {
+  color: #F8D56A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 48px;
+}
