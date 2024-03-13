@@ -3,7 +3,6 @@ In this project, we were expected to build a website using the Express/Node.js p
 The website should interact with the chosen API, retrieve data, and present it in a user-friendly manner.
 
 Objectives:
-
 Develop an understanding of how to integrate public APIs into web projects.
 Gain practical experience using Express/Node.js for server-side programming.
 Enhance understanding of client-server communication using Axios.
